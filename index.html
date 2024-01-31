@@ -4,14 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css">
-    <title> hangman </title>
+    <title> game of hangman </title>
   </head>
   <body>
     <h1> Hangman! </h1>
+    <h5> (without the hang and man) </h5>
+    <button class="new-game-b"> New Game </button>
+    <p> <i> instructions: You guess a word without hints. You are allowed a maximum of 7 incorrect guesses. </i></p>
     <h2 id="random-word"> </h2>
-    <h2 id="incorrect-guesses"> Incorrect Guesses: </h2>
+    <div class="alert-warning"> </div>
+    <h3 id="incorrect-guesses"> Incorrect Guesses: </h3>
     <form class="formm">
-      <input type="text" class="guesses" maxlength="1">
+      <input type="text" class="guesses" aria-label="input guess box" maxlength="1">
       <button class ="enter-button"> enter </button>
     </form>
     <script type="module" src="./js/main.js"></script>
