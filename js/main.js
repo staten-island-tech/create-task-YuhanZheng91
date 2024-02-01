@@ -35,7 +35,7 @@ function guess() {
             document.querySelector(".alert-warning").textContent = `You won!`;
             DOMSelectors.text.disabled = true;
         } else {
-            console.log('nothing');
+            console.log('continue');
         }
     });
 }

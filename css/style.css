@@ -1,5 +1,5 @@
 :root{
-    --button-color-a: #a76856;
+    --button-color-a: #7e4b3d;
 }
 
 body,
@@ -16,11 +16,12 @@ body{
 }
 
 .new-game-b{
-    padding: 0.25%;
+    padding: 0.5%;
     background-color: white;
     border-color: white;
     color: var(--button-color-a);
     font-weight: bold;
+    font-size: 90%;
 }
 
 .enter-button{
@@ -28,34 +29,48 @@ body{
     background-color: white;
     border-color: white;
     color: var(--button-color-a);
+    font-size: 80%;
 }
 
 h1{
     margin: 3% 3% 0.2% 3%;
     color: #8a5f5f;
+    font-size: 230%;
 }
 
 h2{
     color: #8a5f5f;
     margin: 2%;
+    font-size: 120%;
 }
 
 h3{
     font-weight: normal;
     padding: 0% 1% 0% 1%;
     color: #854a4a;
+    font-size: 115%;
 }
 
 h5{
     margin: 0% 3% 3% 3%;
     color:#854a4a;
+    font-size: 80%;
 }
 
 p{
-    margin: 1%;
+    margin: 2%;
     color:#854a4a;
+    font-size: 90%;
 }
 
 .formm{
     margin: 2%;
+}
+
+.box-box{
+    background-color: white;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    padding: 4%;
 }
